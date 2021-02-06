@@ -1,6 +1,13 @@
 // complete the function
 function palindrom(str) {
   // code goes here
+  if (str == str.split('').reverse().join('')) {
+    return (`${str} is a palindrome`);
+  }
+  else{
+    return (`${str} is not a palindrome`);
+
+  }
 }
 
 function solution(arg) {
